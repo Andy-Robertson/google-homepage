@@ -15,6 +15,14 @@
   justify-content: space-between;
 }
 
+#menu {
+  width: 18px;
+  height: 18px;
+  opacity: 0.90;
+  padding-top: 0.4rem;
+  padding-right: 1.2rem;
+}
+
 img {
   display: block;
   margin-left: auto;
@@ -49,6 +57,7 @@ img {
   color: #5f6368;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.9rem;
+  text-align: center;
   height: 2.3rem;
   background-color: #f2f2f2;
   border: 0.1rem solid #f2f2f2;
@@ -66,7 +75,6 @@ img {
 
 input[type="text"]:hover {
   box-shadow: 0 0 0.4rem #f2f2f2;
-
 }
 
 #buttons {
@@ -89,6 +97,10 @@ input[type="text"]:hover {
 
 footer {
   background-color: #f2f2f2;
+  border: 0 solid #e4e4e4;
+  border-top-width: 0.12rem;
+  display: flex;
+  flex-direction: column;
   position: fixed;
   bottom: 0px;
   width: 100%;
@@ -100,6 +112,10 @@ footer {
   color: #5f6368;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.9rem;
+  height: 100%;
+  margin-top: 0.5rem;
+  padding-bottom: 0.1rem;
+  padding-top: 0.1rem;
 }
 
 #bottom-navbar {
@@ -107,24 +123,36 @@ footer {
   justify-content: space-between;
   border: 0 solid #e4e4e4;
   border-top-width: 0.12rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .top-nav-link {
+  display: flex;
+  margin-top: 0.5rem;
   padding-right: 2.3rem;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.8rem;
   color: #000000;
+  opacity: 0.75;
 }
 
 #sign-in {
-  background-color: #4385f7;
-  border: 0 solid #4385f7;
+  background-color: #4285f4;
+  border: 0 solid #4285f4;
   margin-right: 2rem;
   width: 4.5rem;
   height: 1.9rem;
-  font-size: 0.8rem;
-  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8125rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+
+#sign-in:hover {
+  box-shadow: 0 0 0.03rem #4285f4;
 }
 
 .bottom-nav-link {
@@ -132,7 +160,7 @@ footer {
   text-decoration: none;
   color: #5f6368;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.8;
+  font-size: 0.9rem;
 }
 
 .bottom-nav-link:hover,

@@ -1,3 +1,3 @@
 PROJECT: Build the Google.com homepage
 
-DEMONSTRATED SKILLS:
+DEMONSTRATED SKILLS: HTML, CSS, Git, GitHub, VSCode
