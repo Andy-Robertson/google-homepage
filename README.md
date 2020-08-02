@@ -1,1 +1,3 @@
-PROJECT: Build the Google.com homepage
+# google-homepage
+
+A replica of the google homepage (UK) written with HTML and CSS. 
